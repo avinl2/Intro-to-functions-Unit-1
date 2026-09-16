@@ -4,29 +4,8 @@ t = Turtle()
 t.shape('turtle')
 t.speed(2)
 
-def length(y):
-    t.forward(y)
-    t.left(90)
-length(125)
-def width(x):
-    t.forward(x)
-    t.left(90)
-width(100)
-def length(y):
-    t.forward(y)
-    t.left(90)
-length(125)
-def width(x):
-    t.forward(x)
-    t.left(90)
-width(100)
+t.shape('turtle')
 
-def equal(z):
-    t.forward(z)
-    t.left(120)
-    t.forward(z)
-    t.left(120)
-    t.forward(z)
-equal(90)
+t.forward(200)
 
 turtle.done()

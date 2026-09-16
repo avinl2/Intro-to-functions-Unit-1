@@ -21,12 +21,4 @@ def width(x):
     t.left(90)
 width(100)
 
-def equal(z):
-    t.forward(z)
-    t.left(120)
-    t.forward(z)
-    t.left(120)
-    t.forward(z)
-equal(90)
-
 turtle.done()
